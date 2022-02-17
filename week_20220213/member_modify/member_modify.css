@@ -1,0 +1,48 @@
+
+.title {
+    font-size: 40px;
+    text-align: center;
+}
+
+hr {
+    width: 95%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    margin: 20px;
+    font-size: 23px;
+}
+
+.row-name {
+    text-align: end;
+}
+
+.row-content {
+    text-align: start;
+}
+
+input {
+    font-size: 23px;
+    width: 150px;
+}
+
+td {
+    padding: 10px 5px 10px;
+}
+
+.button-container {
+    width: 15%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 18px;
+}
