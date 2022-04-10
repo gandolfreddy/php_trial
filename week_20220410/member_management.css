@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* title */
+#title {
+    height: 150px;
+    width: 100%;
+
+    font-size: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hr */
+hr {
+    width: 90%;
+}
+
+/* sort */
+#sort {
+    height: 50px;
+    width: 100px;
+    
+    font-size: 30px;
+}
+
+/* table */
+table {
+    width: 70%;
+
+    font-size: 20px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    height: 50px;
+    border: 1px solid black;
+
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
